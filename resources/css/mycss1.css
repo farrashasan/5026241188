@@ -1,0 +1,47 @@
+body {
+    background-color: #e6ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
+#publish {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.judul-gambar {
+    text-align: center;
+    font-size: 10px;
+}
+
+.judul-berita {
+    text-align: center;
+    color: rgb(26, 104, 238);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.biar-agak-tengah {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+.biar-judul-agak-tengah {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.gambar {
+    text-align: center;
+}
+
+.frame-gambar {
+    border-radius: 15px;
+}
+
+.shadow-gambar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
