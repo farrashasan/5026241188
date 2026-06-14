@@ -51,9 +51,9 @@
             <nav id="navmenu" class="navmenu">
                 <ul>
                     <li><a href="/Pegawai" class="active">Pegawai</a></li>
-                    <li><a href="/PR1">PR 1</a></li>
-                    <li><a href="/PR2">PR 2</a></li>
-                    <li><a href="/Pertemuan15">Pertemuan 15</a></li>
+                    <li><a href="/keranjangbelanja">PR 1</a></li>
+                    <li><a href="/nilaikuliah">PR 2</a></li>
+                    <li><a href="/siswa">Pertemuan 14</a></li>
                     <li><a href="/EAS">EAS</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
