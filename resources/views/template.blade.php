@@ -50,11 +50,11 @@
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="/Pegawai" class="active">Pegawai</a></li>
+                    <li><a href="/pegawai" class="active">Pegawai</a></li>
                     <li><a href="/keranjangbelanja">PR 1</a></li>
                     <li><a href="/nilaikuliah">PR 2</a></li>
                     <li><a href="/siswa">Pertemuan 14</a></li>
-                    <li><a href="/EAS">EAS</a></li>
+                    <li><a href="/eas">EAS</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>

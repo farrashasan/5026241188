@@ -9,6 +9,8 @@ use App\Http\Controllers\KeranjangController;
 use App\Http\Controllers\SiswaController;
 use App\Http\Controllers\NilaiController;
 use App\Http\Controllers\HarddiskController;
+use App\Http\Controllers\EasController;
+
 
 
 Route::get('/', function () {
@@ -95,3 +97,8 @@ Route::post('/siswa', [SiswaController::class, 'store'])->name('siswa.store');
 Route::get('/siswa/{nrp}/edit', [SiswaController::class, 'edit'])->name('siswa.edit');
 Route::put('/siswa/{nrp}', [SiswaController::class, 'update'])->name('siswa.update');
 Route::delete('/siswa/{nrp}', [SiswaController::class, 'destroy'])->name('siswa.destroy');
+
+//crud tabel EAS
+Route::get('/eas', [EasController::class, 'penggajian']);
+Route::get('/eastambah', [EasController::class, 'tambah']);
+Route::post('/eastambahdata', [EasController::class, 'tambahData']);
